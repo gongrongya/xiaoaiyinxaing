@@ -1,0 +1,164 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+html{
+    font-size: 31.25vw
+}
+body{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    margin: 0;padding: 0;
+}
+ul,li{
+    list-style: none
+}
+header{
+    width: 100%;
+    height:0.475rem;
+    /* background-color: #f99; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    width: 100%;;
+    font-size: 0.14rem;
+    margin-left: 0.078rem;
+    color: #272727;
+}
+header span{
+    height: 0.3rem;
+    width: 0.328rem;
+    margin-right: 0.098rem;
+}
+header img{
+    width: 100%;
+    /* height: 100%; */
+}
+/* 中间主体内容 */
+main{
+    flex: 1;
+    overflow: auto;
+    padding: 0.113rem;
+}
+nav{
+    width: 100%;
+    height: 0.775rem;
+    
+}
+nav li{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.083rem;
+    color: #8b8e97;
+    float: left;
+}
+nav img{
+    width: 0.458rem;
+    height: 0.458rem;
+}
+nav span{
+    margin-top: 0.105rem;
+}
+.banner{
+    width:2.488rem;
+    height: 1.36rem;
+    margin: 0.113rem 0;
+}
+.banner img{
+    width:100%;
+}
+.kill dl{
+    width: 100%;
+    height: 0.12rem;
+   float: left;
+}
+.kill dt{
+    font-size: 0.12rem;
+    display: inline-block;
+}
+.kill dd{
+    display: inline-block;
+    font-size: 0.08rem;
+    height: 0.12rem;
+    line-height: 0.12rem;
+    color: #888e9a;
+    float: right;
+}
+.kill dd img{
+    margin-left: 0.08rem;
+}
+.kill img{
+    width: 0.068rem;
+    height: 0.098rem;
+}
+.list li{
+    width:100%;
+    height: 0.778rem;
+    /* justify-content: space-between; */
+    display: flex;
+    align-content: center;
+    margin: 0.133rem;
+}
+.list_img{
+    width: 0.38rem;
+    height: 0.38rem;
+}
+.list_img img{
+    width: 100%;
+    height: 100%;
+}
+.list_title{
+    width: 1.85rem;
+    height: 0.583rem;
+    margin-left: 0.125rem;
+    border-bottom: 1px #f2f2f2 solid;
+
+}
+.list_title h6{
+    font-size: 0.075rem;
+    margin-bottom: 0.1rem;
+}
+h6 img{
+    width: 0.215rem;
+    height: 0.038rem;
+    margin: 0 0.025rem 0 0.075rem;
+}
+.list_title p{
+    height: 0.15rem;
+    line-height: 0.15rem;
+    font-size: 0.12rem;
+    color: #272727;
+}
+footer{
+    width: 100%;
+    height: 0.78rem;
+    background-color: #fefefe;
+    color: #979797;
+    border-top: 1px solid #e3e3e3;
+}
+footer li{
+    width: 25%;
+    height: 0.78rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    font-size: 0.075rem;
+}
+footer img{
+    width:0.15rem;
+    height: 0.15rem;
+    margin-bottom: 0.0725rem;
+}
+footer li:hover,footer li:focus{
+    color: #f0644d
+}
