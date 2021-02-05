@@ -64,6 +64,7 @@ main nav,ol{
 main nav {
     height: 3.88rem;
     border-bottom: #e3e3e3;
+    color: #979797;
     /* width: 16%; */
 }
 main  ol {
@@ -75,13 +76,15 @@ main ol img{
     width: 7.4rem;
     height: 4rem;
 }
+
 footer{
     width: 100%;
     height: 3.125rem;
-    display: flex;
-    font-size: 0.625rem;
+    background-color: #fefefe;
     color: #979797;
     border-top: 1px solid #e3e3e3;
+    position: fixed;
+    bottom: 0;
 }
 footer li{
     width: 25%;
@@ -90,14 +93,21 @@ footer li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    float: left;
+    font-size: 0.625rem;
 }
 footer img{
-    width: 1.415rem;
+    width:1.415rem;
     height: 1.415rem;
+    margin-bottom: 0.0725rem;
 }
-li:hover,li:focus{
+footer li:hover,footer li:focus{
     color: #f0644d
+}
+ footer a{
+    text-decoration: none ;
+    color: #979797 ;
+    cursor: pointer;
 }
 
 @media all and (max-width:320px){

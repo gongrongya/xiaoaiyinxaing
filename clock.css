@@ -1,0 +1,50 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+html{
+    font-size: 31.25vw
+}
+body{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    margin: 0;padding: 0;
+}
+ul,li{
+    list-style: none
+}
+main{
+    margin: 0.065rem;
+}
+.nav{
+    width: 3rem;
+    height: 0.685rem;
+}
+.nav p img{
+    width: 0.0625rem;
+    height: 0.0975rem;
+    margin: 0.1rem 0.1rem 0;
+}
+.nav h1{
+    height: 0.343rem;
+    font-size: 0.155rem;
+    color: #272727;
+    font-weight: normal;
+    margin-top: 0.14rem;
+}
+.nav span img{
+    display: inline-block;
+    width: 0.503rem;
+    height: 0.265rem;
+    float: right;
+}
+li{
+    margin-top: 0.065rem ;
+}
+li img{
+    width: 3rem;
+    height: 0.965rem;
+}

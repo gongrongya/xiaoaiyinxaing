@@ -1,0 +1,116 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+html{
+    font-size: 31.25vw
+}
+body{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    margin: 0;padding: 0;
+}
+ul,li{
+    list-style: none
+}
+header{
+    width: 3.2rem;
+    height: 1.848rem;
+    background: url(images/wotop_02.png) no-repeat center;
+    background-size: 100%;
+}
+header ul{
+    width: 100%;
+    height: 0.49rem;
+    background:url(images/bgx_02_03.png);
+    color: #8e929b;
+    position: fixed;
+    top: 1.36rem;
+
+}
+header li{
+    width: 20%;
+    height: 0.49rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    font-size: 0.068rem;
+}
+header li img{
+    width:0.338rem;
+    height: 0.338rem;
+    margin-bottom: 0.0725rem;
+    background-color: #fff;
+}
+header img{
+    width: 3.2rem;
+    height: 1.24rem;
+}
+main{
+    width: 3.2rem;
+    border-radius: 10%;
+    background-color: #fff;
+}
+main ul{
+    margin: 0 0.133rem;
+    flex: 1;
+    overflow: auto;
+}
+main li{
+    width: 2.915rem;
+    height: 0.473rem;
+    border-bottom: #e6eaed 1px solid;
+    font-size: 0.108rem;
+    line-height: 0.473rem;
+}
+main span{
+    display: inline-block;
+    float: right;
+    height: 0.473rem;
+    line-height: 0.473rem;
+}
+main span img{
+    width: 0.04rem;
+    height: 0.1rem;
+}
+main li p{
+    font-size: 0.075rem;
+    color: #888e9a;
+}
+footer{
+    width: 100%;
+    height: 0.78rem;
+    background-color: #fefefe;
+    color: #979797;
+    border-top: 1px solid #e3e3e3;
+    position: fixed;
+    bottom: 0;
+}
+footer li{
+    width: 25%;
+    height: 0.78rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    font-size: 0.075rem;
+}
+footer img{
+    width:0.15rem;
+    height: 0.15rem;
+    margin-bottom: 0.0725rem;
+}
+footer li:hover,footer li:focus{
+    color: #f0644d
+}
+ footer a{
+    text-decoration: none ;
+    color: #979797 ;
+    cursor: pointer;
+}

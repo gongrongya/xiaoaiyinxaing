@@ -159,6 +159,8 @@ footer{
     background-color: #fefefe;
     color: #979797;
     border-top: 1px solid #e3e3e3;
+    position: fixed;
+    bottom: 0;
 }
 footer li{
     width: 25%;
@@ -177,4 +179,9 @@ footer img{
 }
 footer li:hover,footer li:focus{
     color: #f0644d
+}
+footer a{
+    text-decoration: none ;
+    color: #979797 ;
+    cursor: pointer;
 }
